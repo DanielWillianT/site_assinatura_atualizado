@@ -1,0 +1,50 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+}
+.container {
+  background: white;
+  padding: 20px;
+  max-width: 650px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+}
+#assinatura-preview {
+  position: relative;
+  width: 600px;
+  height: auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+}
+#imagem-assinatura {
+  width: 100%;
+  display: block;
+}
+#texto-sobreposto {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  color: #000;
+  font-size: 14px;
+  background: transparent;
+  padding: 8px;
+  border-radius: 6px;
+  width: 250px;
+  line-height: 1.4em;
+}
+#preview-nome,
+#preview-cargo,
+#preview-telefone,
+#preview-email {
+  font-family: Arial, sans-serif;
+}
