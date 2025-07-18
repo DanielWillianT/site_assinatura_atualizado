@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Arboria Black';
+  src: url('Arboria-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Arboria Medium';
+  src: url('Arboria-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Arboria Bold';
+  src: url('FontsFree-Net-Arboria-Bold.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#logo-topo {
+  display: block;
+  margin: -10px auto 10px auto; /* sobe e reduz espaço */
+  max-width: 500px;             /* tamanho menor */
+  height: auto;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  font-family: 'Arial', sans-serif;
+}
+
+#assinatura-preview {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  height: auto;
+  border: 1px solid #ccc;
+  margin: auto;
+}
+
+#imagem-assinatura {
+  width: 100%;
+  display: block;
+}
+
+#texto-sobreposto {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  color: #000;
+  padding: 8px;
+  width: 600px;
+  line-height: 1.4em;
+  background-color: transparent;
+}
+
+/* Nome */
+#preview-nome {
+  font-family: 'Arboria Black', sans-serif;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* Cargo */
+#preview-cargo {
+  font-family: 'Arboria Medium', sans-serif;
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+/* Telefone */
+#preview-telefone {
+  font-family: 'Arboria Bold', sans-serif;
+  font-size: 22px;
+  display: block;
+  margin-top: 33px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('fundo-site.jpg'); /* nome do seu arquivo */
+  background-size: cover;                  /* cobre toda a tela */
+  background-position: center;             /* centraliza */
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 20px;
+}
+
