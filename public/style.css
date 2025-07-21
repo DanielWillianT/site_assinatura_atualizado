@@ -1,0 +1,122 @@
+/* Fontes Arboria */
+@font-face {
+  font-family: 'Arboria Black';
+  src: url('Arboria-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Arboria Medium';
+  src: url("https://db.onlinewebfonts.com/t/dda65d7f418f4ab23abf484c807c9f17.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Arboria Bold';
+  src: url('FontsFree-Net-Arboria-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Arboria Book';
+  src: url('Arboria-Book.ttf') format('truetype');
+}
+
+/* Estilo geral */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('fundo-site.jpg'); /* imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#logo-topo {
+  display: block;
+  margin: -10px auto 10px auto;
+  max-width: 500px;
+  height: auto;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Área da assinatura */
+#assinatura-preview {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  height: auto;
+  border: 1px solid #ccc;
+  margin: auto;
+}
+
+#imagem-assinatura {
+  width: 100%;
+  display: block;
+}
+
+#texto-sobreposto {
+  position: absolute;
+  top: 28px;
+  left: 201px;
+  color: #000;
+  padding: 8px;
+  width: 600px;
+  line-height: 1.4em;
+  background-color: transparent;
+}
+
+/* Nome */
+#preview-nome {
+  font-family: 'Arboria Medium', sans-serif;
+  font-size: 24px;
+  font-weight: 400; /* remove o negrito */
+  margin-bottom: 10px;
+  color: #363435;
+}
+
+/* Cargo */
+#preview-cargo {
+  font-family: 'Arboria Medium', sans-serif;
+  font-size: 12px;
+  color: #444;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+/* Telefone */
+#preview-telefone {
+  font-family: 'Arboria Medium', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #363435;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  display: block;
+}
