@@ -95,7 +95,7 @@ input {
 /* Nome */
 #preview-nome {
   font-family: 'Arboria Medium', sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 400; /* remove o negrito */
   margin-bottom: 10px;
   color: #363435;
@@ -104,7 +104,7 @@ input {
 /* Cargo */
 #preview-cargo {
   font-family: 'Arboria Medium', sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   color: #444;
   margin-bottom: 30px;
   margin-top: 0px;
@@ -113,7 +113,7 @@ input {
 /* Telefone */
 #preview-telefone {
   font-family: 'Arboria Medium', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #363435;
   margin-bottom: 10px;
